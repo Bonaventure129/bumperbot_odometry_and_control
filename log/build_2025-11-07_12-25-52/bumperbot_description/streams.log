@@ -1,0 +1,47 @@
+[0.418s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[4.061s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[10.738s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[12.148s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.149s] -- Configured 'flake8' exclude dirs and/or files: 
+[12.150s] -- Added test 'lint_cmake' to check CMake code style
+[12.152s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.156s] -- Added test 'xmllint' to check XML markup files
+[12.294s] -- Configuring done (11.7s)
+[12.515s] -- Generating done (0.2s)
+[12.564s] -- Build files have been written to: /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description
+[12.596s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[12.636s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description
+[12.647s] -- Install configuration: ""
+[12.647s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[12.648s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/laser_link.STL
+[12.648s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[12.648s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[12.648s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[12.649s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[12.649s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[12.649s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[12.649s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[12.649s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+[12.650s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[12.677s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[12.678s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch
+[12.678s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[12.678s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[12.678s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz
+[12.679s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[12.679s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[12.679s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[12.679s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[12.679s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[12.680s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[12.680s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[12.680s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[12.680s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[12.680s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[12.680s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[12.681s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[12.681s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[12.681s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[12.682s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[12.683s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[12.683s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description

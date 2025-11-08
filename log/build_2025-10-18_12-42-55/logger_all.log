@@ -1,0 +1,494 @@
+[1.030s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.031s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7149622aaf60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x714962240920>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x714962240920>>, mixin_verb=('build',))
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.885s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ugbah-awele-bonaventure/bumperbot_ws'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extension 'ignore'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extension 'ignore_ament_install'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extensions ['colcon_pkg']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extension 'colcon_pkg'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extensions ['colcon_meta']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extension 'colcon_meta'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extensions ['ros']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extension 'ros'
+[2.009s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'src/bumberbot_msgs'
+[2.009s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'src/bumberbot_msgs': Error(s) in package 'src/bumberbot_msgs/package.xml':
+Invalid email "aweleugbah129@.com" for person "ugbah-awele-bonaventure"
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extensions ['cmake', 'python']
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extension 'cmake'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumberbot_msgs) by extension 'python'
+[2.014s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumberbot_msgs' with type 'cmake' and name 'bumberbot_msgs'
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ignore'
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ignore_ament_install'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['colcon_pkg']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'colcon_pkg'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['colcon_meta']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'colcon_meta'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['ros']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ros'
+[2.028s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_controller' with type 'ros.ament_cmake' and name 'bumperbot_controller'
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ignore'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ignore_ament_install'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['colcon_pkg']
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'colcon_pkg'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['colcon_meta']
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'colcon_meta'
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['ros']
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ros'
+[2.042s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_cpp_examples' with type 'ros.ament_cmake' and name 'bumperbot_cpp_examples'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['ignore', 'ignore_ament_install']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ignore'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ignore_ament_install'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['colcon_pkg']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'colcon_pkg'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['colcon_meta']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'colcon_meta'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['ros']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ros'
+[2.053s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_description' with type 'ros.ament_cmake' and name 'bumperbot_description'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ignore'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ignore_ament_install'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['colcon_pkg']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'colcon_pkg'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['colcon_meta']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'colcon_meta'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['ros']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ros'
+[2.071s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_py_examples' with type 'ros.ament_python' and name 'bumperbot_py_examples'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['ignore', 'ignore_ament_install']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'ignore'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'ignore_ament_install'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['colcon_pkg']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'colcon_pkg'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['colcon_meta']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'colcon_meta'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['ros']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'ros'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['cmake', 'python']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'cmake'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'python'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['python_setup_py']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'python_setup_py'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['ignore', 'ignore_ament_install']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'ignore'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'ignore_ament_install'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['colcon_pkg']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'colcon_pkg'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['colcon_meta']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'colcon_meta'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['ros']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'ros'
+[2.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/joy_teleop' with type 'ros.ament_python' and name 'joy_teleop'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'ignore'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'ignore_ament_install'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['colcon_pkg']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'colcon_pkg'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['colcon_meta']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'colcon_meta'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['ros']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'ros'
+[2.131s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/teleop_tools_msgs' with type 'ros.ament_cmake' and name 'teleop_tools_msgs'
+[2.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.003s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/ugbah-awele-bonaventure/bumperbot_ws/install
+[3.005s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/ugbah-awele-bonaventure/scuttle_robot/install
+[3.008s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/ugbah-awele-bonaventure/arduinobot_ws/install
+[3.017s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 417 installed packages in /opt/ros/jazzy
+[3.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.863s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'joy_teleop' is in: /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop, /home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop
+	'teleop_tools_msgs' is in: /home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs, /home/ugbah-awele-bonaventure/scuttle_robot/install/teleop_tools_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joy_teleop teleop_tools_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[3.865s] Level 5:colcon.colcon_core.verb:set package 'bumberbot_msgs' build argument 'cmake_args' from command line to 'None'
+[3.865s] Level 5:colcon.colcon_core.verb:set package 'bumberbot_msgs' build argument 'cmake_target' from command line to 'None'
+[3.865s] Level 5:colcon.colcon_core.verb:set package 'bumberbot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.865s] Level 5:colcon.colcon_core.verb:set package 'bumberbot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.865s] Level 5:colcon.colcon_core.verb:set package 'bumberbot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.865s] Level 5:colcon.colcon_core.verb:set package 'bumberbot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.865s] Level 5:colcon.colcon_core.verb:set package 'bumberbot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.866s] Level 5:colcon.colcon_core.verb:set package 'bumberbot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.866s] Level 5:colcon.colcon_core.verb:set package 'bumberbot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.866s] DEBUG:colcon.colcon_core.verb:Building package 'bumberbot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs', 'merge_install': False, 'path': '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumberbot_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.866s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_args' from command line to 'None'
+[3.866s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_target' from command line to 'None'
+[3.866s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.866s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.867s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller', 'merge_install': False, 'path': '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_controller', 'symlink_install': False, 'test_result_base': None}
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[3.867s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.867s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples', 'merge_install': False, 'path': '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_args' from command line to 'None'
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target' from command line to 'None'
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.868s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description', 'merge_install': False, 'path': '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_description', 'symlink_install': False, 'test_result_base': None}
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_args' from command line to 'None'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_target' from command line to 'None'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.869s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples', 'merge_install': False, 'path': '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_py_examples', 'symlink_install': False, 'test_result_base': None}
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_args' from command line to 'None'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_target' from command line to 'None'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.870s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_tools_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs', 'merge_install': False, 'path': '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/teleop_tools_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_args' from command line to 'None'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_target' from command line to 'None'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[3.871s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.871s] DEBUG:colcon.colcon_core.verb:Building package 'joy_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop', 'merge_install': False, 'path': '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/joy_teleop', 'symlink_install': False, 'test_result_base': None}
+[3.872s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.873s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.874s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/teleop_tools_msgs' with build type 'ament_cmake'
+[3.874s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/teleop_tools_msgs'
+[3.979s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.980s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.980s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.050s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumberbot_msgs'
+[4.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.051s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.058s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_controller' with build type 'ament_cmake'
+[4.058s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_controller'
+[4.059s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.093s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_cpp_examples' with build type 'ament_cmake'
+[4.094s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_cpp_examples'
+[4.094s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.094s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[4.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[4.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ugbah-awele-bonaventure/bumperbot_ws/src/bumberbot_msgs -DCMAKE_INSTALL_PREFIX=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs
+[4.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs -- -j4 -l4
+[7.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[7.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples
+[7.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_cpp_examples)
+[7.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples
+[8.216s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples' for CMake module files
+[8.217s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples' for CMake config files
+[8.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_cpp_examples', 'cmake_prefix_path')
+[8.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.ps1'
+[8.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.dsv'
+[8.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.sh'
+[8.387s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[8.387s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/lib/pkgconfig/bumperbot_cpp_examples.pc'
+[8.388s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/lib/python3.12/site-packages'
+[8.389s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[8.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.ps1'
+[8.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv'
+[8.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.sh'
+[8.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.bash'
+[8.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.zsh'
+[8.783s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/colcon-core/packages/bumperbot_cpp_examples)
+[8.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_cpp_examples)
+[8.784s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples' for CMake module files
+[8.789s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples' for CMake config files
+[8.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_cpp_examples', 'cmake_prefix_path')
+[8.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.ps1'
+[8.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.dsv'
+[8.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.sh'
+[8.796s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[8.797s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/lib/pkgconfig/bumperbot_cpp_examples.pc'
+[8.800s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/lib/python3.12/site-packages'
+[8.801s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[8.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.ps1'
+[8.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv'
+[8.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.sh'
+[8.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.bash'
+[8.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.zsh'
+[8.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/colcon-core/packages/bumperbot_cpp_examples)
+[8.818s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_description' with build type 'ament_cmake'
+[8.819s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_description'
+[8.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[9.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[9.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description
+[9.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[9.449s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description' for CMake module files
+[9.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_description
+[9.452s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description' for CMake config files
+[9.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[9.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[9.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[9.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[9.456s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/bin'
+[9.456s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[9.457s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/lib/python3.12/site-packages'
+[9.457s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/bin'
+[9.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[9.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[9.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.sh'
+[9.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.bash'
+[9.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[9.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[9.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[9.464s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description' for CMake module files
+[9.465s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description' for CMake config files
+[9.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[9.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[9.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[9.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[9.469s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/bin'
+[9.470s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[9.470s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/lib/python3.12/site-packages'
+[9.471s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/bin'
+[9.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[9.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[9.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.sh'
+[9.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.bash'
+[9.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[9.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[9.477s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_py_examples' with build type 'ament_python'
+[9.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_py_examples', 'ament_prefix_path')
+[9.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.ps1'
+[9.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.dsv'
+[9.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.sh'
+[9.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.228s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_py_examples'
+[10.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.228s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[10.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller
+[11.435s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_controller)
+[11.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller
+[11.435s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller' for CMake module files
+[11.437s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller' for CMake config files
+[11.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'cmake_prefix_path')
+[11.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.ps1'
+[11.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.dsv'
+[11.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.sh'
+[11.441s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib'
+[11.441s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/bin'
+[11.441s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/pkgconfig/bumperbot_controller.pc'
+[11.442s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages'
+[11.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'pythonpath')
+[11.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.ps1'
+[11.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.dsv'
+[11.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.sh'
+[11.492s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/bin'
+[11.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.ps1'
+[11.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv'
+[11.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.sh'
+[11.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.bash'
+[11.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.zsh'
+[11.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/colcon-core/packages/bumperbot_controller)
+[11.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_controller)
+[11.498s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller' for CMake module files
+[11.500s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller' for CMake config files
+[11.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'cmake_prefix_path')
+[11.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.ps1'
+[11.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.dsv'
+[11.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.sh'
+[11.503s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib'
+[11.504s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/bin'
+[11.504s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/pkgconfig/bumperbot_controller.pc'
+[11.504s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages'
+[11.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'pythonpath')
+[11.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.ps1'
+[11.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.dsv'
+[11.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.sh'
+[11.507s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/bin'
+[11.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.ps1'
+[11.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv'
+[11.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.sh'
+[11.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.bash'
+[11.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.zsh'
+[11.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/colcon-core/packages/bumperbot_controller)
+[12.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs -- -j4 -l4
+[13.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs
+[18.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools_msgs)
+[18.730s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs' for CMake module files
+[18.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs
+[18.733s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs' for CMake config files
+[18.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'cmake_prefix_path')
+[18.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.ps1'
+[18.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.dsv'
+[18.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.sh'
+[18.740s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib'
+[18.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'ld_library_path_lib')
+[18.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.ps1'
+[18.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.dsv'
+[18.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.sh'
+[18.744s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/bin'
+[18.744s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib/pkgconfig/teleop_tools_msgs.pc'
+[18.745s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib/python3.12/site-packages'
+[18.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'pythonpath')
+[18.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.ps1'
+[18.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.dsv'
+[18.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.sh'
+[18.751s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/bin'
+[18.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.ps1'
+[18.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv'
+[18.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.sh'
+[18.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.bash'
+[18.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.zsh'
+[18.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/colcon-core/packages/teleop_tools_msgs)
+[18.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools_msgs)
+[18.799s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs' for CMake module files
+[18.801s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs' for CMake config files
+[18.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'cmake_prefix_path')
+[18.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.ps1'
+[18.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.dsv'
+[18.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.sh'
+[18.804s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib'
+[18.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'ld_library_path_lib')
+[18.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.ps1'
+[18.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.dsv'
+[18.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.sh'
+[18.805s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/bin'
+[18.806s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib/pkgconfig/teleop_tools_msgs.pc'
+[18.806s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib/python3.12/site-packages'
+[18.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'pythonpath')
+[18.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.ps1'
+[18.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.dsv'
+[18.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.sh'
+[18.807s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/bin'
+[18.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.ps1'
+[18.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv'
+[18.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.sh'
+[18.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.bash'
+[18.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.zsh'
+[18.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/share/colcon-core/packages/teleop_tools_msgs)
+[18.811s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/joy_teleop' with build type 'ament_python'
+[18.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_teleop', 'ament_prefix_path')
+[18.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.ps1'
+[18.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.dsv'
+[18.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.sh'
+[18.814s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.814s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.085s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/joy_teleop'
+[20.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.086s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[57.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ugbah-awele-bonaventure/bumperbot_ws/src/bumberbot_msgs -DCMAKE_INSTALL_PREFIX=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs
+[57.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs -- -j4 -l4
+[57.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs -- -j4 -l4
+[57.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs
+[57.154s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumberbot_msgs)
+[57.154s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs' for CMake module files
+[57.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs
+[57.156s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs' for CMake config files
+[57.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumberbot_msgs', 'cmake_prefix_path')
+[57.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/share/bumberbot_msgs/hook/cmake_prefix_path.ps1'
+[57.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/share/bumberbot_msgs/hook/cmake_prefix_path.dsv'
+[57.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/share/bumberbot_msgs/hook/cmake_prefix_path.sh'
+[57.159s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/bin'
+[57.160s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/lib/pkgconfig/bumberbot_msgs.pc'
+[57.160s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/lib/python3.12/site-packages'
+[57.160s] Level 1:colcon.colcon_core.environment:checking '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/bin'
+[57.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/share/bumberbot_msgs/package.ps1'
+[57.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/share/bumberbot_msgs/package.dsv'
+[57.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/share/bumberbot_msgs/package.sh'
+[57.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/share/bumberbot_msgs/package.bash'
+[57.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/share/bumberbot_msgs/package.zsh'
+[57.164s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/share/colcon-core/packages/bumberbot_msgs)
+[70.443s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[70.443s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[70.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/joy_teleop': CMAKE_PREFIX_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs:/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_description:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller:/home/ugbah-awele-bonaventure/scuttle_robot/install/teleop_tools_msgs:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_description:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_controller:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_utils:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_remote:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_msgs:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_moveit:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_firmware:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_controller:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_description:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_cpp_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/scuttle_robot/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_controller/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_remote/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build install --record /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/install.log --single-version-externally-managed install_data
+[71.391s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[71.391s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[71.392s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[71.392s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[71.920s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[71.920s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[71.921s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[82.331s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[82.332s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/local_setup.ps1'
+[82.382s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ugbah-awele-bonaventure/bumperbot_ws/install/_local_setup_util_ps1.py'
+[82.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/setup.ps1'
+[82.496s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/local_setup.sh'
+[82.551s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ugbah-awele-bonaventure/bumperbot_ws/install/_local_setup_util_sh.py'
+[82.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/setup.sh'
+[82.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/local_setup.bash'
+[82.616s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/setup.bash'
+[82.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/local_setup.zsh'
+[82.662s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugbah-awele-bonaventure/bumperbot_ws/install/setup.zsh'

@@ -1,0 +1,22 @@
+[27.451s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/key_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ugbah-awele-bonaventure/bumperbot_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/key_teleop build --build-base /home/ugbah-awele-bonaventure/bumperbot_ws/build/key_teleop/build install --record /home/ugbah-awele-bonaventure/bumperbot_ws/build/key_teleop/install.log --single-version-externally-managed install_data
+[28.468s] running egg_info
+[28.543s] writing ../../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+[28.543s] writing dependency_links to ../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+[28.544s] writing entry points to ../../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+[28.545s] writing requirements to ../../../build/key_teleop/key_teleop.egg-info/requires.txt
+[28.545s] writing top-level names to ../../../build/key_teleop/key_teleop.egg-info/top_level.txt
+[28.685s] reading manifest file '../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[28.700s] adding license file 'LICENSE'
+[28.702s] writing manifest file '../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[28.702s] running build
+[28.702s] running build_py
+[28.704s] running install
+[28.723s] running install_lib
+[28.810s] running install_data
+[28.811s] running install_egg_info
+[28.889s] removing '/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop/lib/python3.12/site-packages/key_teleop-1.8.0-py3.12.egg-info' (and everything under it)
+[28.891s] Copying ../../../build/key_teleop/key_teleop.egg-info to /home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop/lib/python3.12/site-packages/key_teleop-1.8.0-py3.12.egg-info
+[28.913s] running install_scripts
+[29.506s] Installing key_teleop script to /home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop/lib/key_teleop
+[29.507s] writing list of installed files to '/home/ugbah-awele-bonaventure/bumperbot_ws/build/key_teleop/install.log'
+[29.589s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/key_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ugbah-awele-bonaventure/bumperbot_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/key_teleop build --build-base /home/ugbah-awele-bonaventure/bumperbot_ws/build/key_teleop/build install --record /home/ugbah-awele-bonaventure/bumperbot_ws/build/key_teleop/install.log --single-version-externally-managed install_data

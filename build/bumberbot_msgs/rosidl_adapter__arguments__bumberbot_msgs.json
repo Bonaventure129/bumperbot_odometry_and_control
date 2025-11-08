@@ -1,0 +1,6 @@
+{
+  "package_name": "bumberbot_msgs",
+  "non_idl_tuples": [
+    "/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumberbot_msgs:srv/AddTwoInts.srv"
+  ]
+}

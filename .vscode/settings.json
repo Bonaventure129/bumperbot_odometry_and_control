@@ -1,0 +1,13 @@
+{
+    "ros.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_remote/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

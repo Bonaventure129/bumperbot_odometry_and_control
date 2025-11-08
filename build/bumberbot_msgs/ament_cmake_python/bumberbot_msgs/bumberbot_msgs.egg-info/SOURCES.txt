@@ -1,0 +1,6 @@
+setup.py
+bumberbot_msgs/__init__.py
+bumberbot_msgs.egg-info/PKG-INFO
+bumberbot_msgs.egg-info/SOURCES.txt
+bumberbot_msgs.egg-info/dependency_links.txt
+bumberbot_msgs.egg-info/top_level.txt

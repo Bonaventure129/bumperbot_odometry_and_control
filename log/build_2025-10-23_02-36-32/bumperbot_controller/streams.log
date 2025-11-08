@@ -1,0 +1,47 @@
+[0.247s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[0.970s] Built target ament_cmake_python_copy_bumperbot_controller
+[1.907s] running egg_info
+[1.997s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.997s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.997s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[2.357s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.430s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.542s] Built target ament_cmake_python_build_bumperbot_controller_egg
+[2.592s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[2.670s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller
+[2.747s] -- Install configuration: ""
+[2.747s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[2.748s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[2.748s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info
+[2.750s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.750s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.751s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[2.751s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[2.751s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller
+[2.787s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py
+[2.787s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+[3.067s] Listing '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+[3.118s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[3.121s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[3.144s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[3.145s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[3.146s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[3.146s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[3.146s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[3.179s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[3.182s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[3.226s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[3.226s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[3.226s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[3.227s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[3.228s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[3.274s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[3.278s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[3.278s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[3.279s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[3.281s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[3.506s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[3.506s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[3.507s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[3.507s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[3.513s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/home/ugbah-awele-bonaventure/scuttle_robot/install/joy_teleop:/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples:/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller

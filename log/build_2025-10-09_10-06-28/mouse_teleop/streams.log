@@ -1,0 +1,22 @@
+[23.487s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/mouse_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ugbah-awele-bonaventure/bumperbot_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mouse_teleop build --build-base /home/ugbah-awele-bonaventure/bumperbot_ws/build/mouse_teleop/build install --record /home/ugbah-awele-bonaventure/bumperbot_ws/build/mouse_teleop/install.log --single-version-externally-managed install_data
+[24.518s] running egg_info
+[24.599s] writing ../../../build/mouse_teleop/mouse_teleop.egg-info/PKG-INFO
+[24.629s] writing dependency_links to ../../../build/mouse_teleop/mouse_teleop.egg-info/dependency_links.txt
+[24.630s] writing entry points to ../../../build/mouse_teleop/mouse_teleop.egg-info/entry_points.txt
+[24.630s] writing requirements to ../../../build/mouse_teleop/mouse_teleop.egg-info/requires.txt
+[24.631s] writing top-level names to ../../../build/mouse_teleop/mouse_teleop.egg-info/top_level.txt
+[24.824s] reading manifest file '../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[24.829s] adding license file 'LICENSE'
+[24.829s] writing manifest file '../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[24.830s] running build
+[24.832s] running build_py
+[24.832s] running install
+[24.852s] running install_lib
+[24.986s] running install_data
+[24.986s] running install_egg_info
+[25.115s] removing '/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop/lib/python3.12/site-packages/mouse_teleop-1.8.0-py3.12.egg-info' (and everything under it)
+[25.116s] Copying ../../../build/mouse_teleop/mouse_teleop.egg-info to /home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop/lib/python3.12/site-packages/mouse_teleop-1.8.0-py3.12.egg-info
+[25.139s] running install_scripts
+[25.687s] Installing mouse_teleop script to /home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop/lib/mouse_teleop
+[25.688s] writing list of installed files to '/home/ugbah-awele-bonaventure/bumperbot_ws/build/mouse_teleop/install.log'
+[25.773s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/mouse_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ugbah-awele-bonaventure/bumperbot_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mouse_teleop build --build-base /home/ugbah-awele-bonaventure/bumperbot_ws/build/mouse_teleop/build install --record /home/ugbah-awele-bonaventure/bumperbot_ws/build/mouse_teleop/install.log --single-version-externally-managed install_data

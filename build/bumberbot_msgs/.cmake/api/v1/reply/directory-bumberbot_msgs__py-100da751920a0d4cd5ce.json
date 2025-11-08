@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "bumberbot_msgs__py",
+		"source" : "/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumberbot_msgs/bumberbot_msgs__py"
+	}
+}

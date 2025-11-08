@@ -1,0 +1,51 @@
+[0.048s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller
+[0.291s] -- The C compiler identification is GNU 13.3.0
+[0.416s] -- The CXX compiler identification is GNU 13.3.0
+[0.448s] -- Detecting C compiler ABI info
+[0.761s] -- Detecting C compiler ABI info - done
+[0.785s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.786s] -- Detecting C compile features
+[0.787s] -- Detecting C compile features - done
+[0.815s] -- Detecting CXX compiler ABI info
+[1.174s] -- Detecting CXX compiler ABI info - done
+[1.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.207s] -- Detecting CXX compile features
+[1.208s] -- Detecting CXX compile features - done
+[1.223s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.734s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.040s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.053s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.344s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.414s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.621s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.855s] Error parsing '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_controller/package.xml':
+[6.024s] Traceback (most recent call last):
+[6.024s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[6.024s]     main()
+[6.025s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[6.025s]     raise e
+[6.025s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[6.025s]     package = parse_package_string(
+[6.025s]               ^^^^^^^^^^^^^^^^^^^^^
+[6.025s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[6.026s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[6.026s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_controller/package.xml':
+[6.026s] Error(s):
+[6.026s] - The generic dependency on 'rclpy' is redundant with: build_depend, build_export_depend, exec_depend
+[6.081s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[6.082s]   execute_process(/usr/bin/python3
+[6.082s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[6.082s]   /home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_controller/package.xml
+[6.082s]   /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller/ament_cmake_core/package.cmake)
+[6.082s]   returned error code 1
+[6.082s] Call Stack (most recent call first):
+[6.082s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[6.082s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:60 (ament_package_xml)
+[6.082s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[6.083s]   CMakeLists.txt:15 (ament_python_install_package)
+[6.083s] 
+[6.083s] [0m
+[6.083s] -- Configuring incomplete, errors occurred!
+[6.092s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_controller' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller
