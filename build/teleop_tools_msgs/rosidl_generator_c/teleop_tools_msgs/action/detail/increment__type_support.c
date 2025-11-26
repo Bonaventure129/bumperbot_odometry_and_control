@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "teleop_tools_msgs/action/detail/increment__type_support.h"
 #include "teleop_tools_msgs/action/detail/increment__functions.h"
+#include "teleop_tools_msgs/action/detail/increment__type_support.h"
 #include "teleop_tools_msgs/action/detail/increment__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 

@@ -9,5 +9,26 @@
         "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages",
         "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages",
         "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/bumperbot_ws/install/mouse_teleop/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/bumperbot_ws/install/key_teleop/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumberbot_msgs/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_remote/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_robot_py_examples/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_localization/lib/python3.12/site-packages",
+        "/home/ugbah-awele-bonaventure/scuttle_robot/install/scuttle_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
     ]
 }

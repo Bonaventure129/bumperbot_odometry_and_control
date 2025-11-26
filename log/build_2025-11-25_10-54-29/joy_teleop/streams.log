@@ -1,0 +1,45 @@
+[3.539s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/joy_teleop': AMENT_PREFIX_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build install --record /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/install.log --single-version-externally-managed install_data
+[4.604s] running egg_info
+[4.605s] creating ../../../build/joy_teleop/joy_teleop.egg-info
+[4.645s] writing ../../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO
+[4.648s] writing dependency_links to ../../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt
+[4.648s] writing entry points to ../../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt
+[4.648s] writing requirements to ../../../build/joy_teleop/joy_teleop.egg-info/requires.txt
+[4.649s] writing top-level names to ../../../build/joy_teleop/joy_teleop.egg-info/top_level.txt
+[4.649s] writing manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[4.728s] reading manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[4.730s] writing manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[4.743s] running build
+[4.743s] running build_py
+[4.743s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build
+[4.744s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build/lib
+[4.744s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build/lib/joy_teleop
+[4.744s] copying joy_teleop/incrementer_server.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build/lib/joy_teleop
+[4.745s] copying joy_teleop/__init__.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build/lib/joy_teleop
+[4.745s] copying joy_teleop/joy_teleop.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build/lib/joy_teleop
+[4.745s] running install
+[4.755s] running install_lib
+[4.794s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages/joy_teleop
+[4.795s] copying /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build/lib/joy_teleop/incrementer_server.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages/joy_teleop
+[4.796s] copying /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build/lib/joy_teleop/__init__.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages/joy_teleop
+[4.796s] copying /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build/lib/joy_teleop/joy_teleop.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages/joy_teleop
+[4.797s] byte-compiling /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages/joy_teleop/incrementer_server.py to incrementer_server.cpython-312.pyc
+[4.798s] byte-compiling /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages/joy_teleop/__init__.py to __init__.cpython-312.pyc
+[4.799s] byte-compiling /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages/joy_teleop/joy_teleop.py to joy_teleop.cpython-312.pyc
+[4.804s] running install_data
+[4.805s] copying package.xml -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/joy_teleop
+[4.805s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/joy_teleop/config
+[4.805s] copying config/joy_teleop_example.yaml -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/joy_teleop/config
+[4.806s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/joy_teleop/launch
+[4.806s] copying launch/example.launch.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/joy_teleop/launch
+[4.806s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/ament_index
+[4.806s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/ament_index/resource_index
+[4.807s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/ament_index/resource_index/packages
+[4.807s] copying resource/joy_teleop -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/share/ament_index/resource_index/packages
+[4.807s] running install_egg_info
+[4.849s] Copying ../../../build/joy_teleop/joy_teleop.egg-info to /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages/joy_teleop-1.8.0-py3.12.egg-info
+[4.851s] running install_scripts
+[5.101s] Installing incrementer_server script to /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/joy_teleop
+[5.102s] Installing joy_teleop script to /home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/joy_teleop
+[5.102s] writing list of installed files to '/home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/install.log'
+[5.169s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/teleop_tools/joy_teleop' returned '0': AMENT_PREFIX_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/bumperbot_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/build install --record /home/ugbah-awele-bonaventure/bumperbot_ws/build/joy_teleop/install.log --single-version-externally-managed install_data

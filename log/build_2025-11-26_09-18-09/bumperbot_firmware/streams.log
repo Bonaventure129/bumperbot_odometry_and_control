@@ -1,0 +1,62 @@
+[0.057s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[0.341s] [ 33%] Built target bumperbot_firmware
+[0.344s] [ 66%] Built target simple_serial_receiver
+[0.349s] [ 66%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.356s] [100%] Built target simple_serial_transmitter
+[1.128s] running egg_info
+[1.225s] writing bumperbot_firmware.egg-info/PKG-INFO
+[1.226s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[1.226s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[1.433s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.434s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.484s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[1.790s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[1.791s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_firmware
+[1.810s] -- Install configuration: ""
+[1.812s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[1.813s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[1.814s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info
+[1.814s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.816s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.816s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/PKG-INFO
+[1.818s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/top_level.txt
+[1.822s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware
+[1.822s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_receiver.py
+[1.823s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_transmitter.py
+[1.823s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/mpu6050_driver.py
+[1.823s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/__init__.py
+[1.930s] Listing '/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware'...
+[1.947s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[1.947s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[1.949s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/include/include
+[1.949s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+[1.949s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[1.951s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[1.951s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[1.951s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[1.953s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[1.954s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+[1.954s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[1.955s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[1.955s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[1.955s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[1.956s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[1.956s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[1.956s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[1.957s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[1.957s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[1.958s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[1.958s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[1.958s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[1.958s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[1.959s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[1.959s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[1.959s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[1.959s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[1.960s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.960s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[1.960s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.960s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[1.961s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[1.961s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[2.297s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_firmware

@@ -1,0 +1,3 @@
+[0.040s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.235s] [ 50%] Built target simple_publisher1
+[0.283s] [100%] Built target simple_subscriber1

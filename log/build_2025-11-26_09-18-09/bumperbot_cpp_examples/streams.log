@@ -1,0 +1,24 @@
+[0.040s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.275s] [ 50%] Built target simple_publisher1
+[0.301s] [100%] Built target simple_subscriber1
+[0.352s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.460s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples
+[0.505s] -- Install configuration: ""
+[0.513s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher1
+[0.513s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber1
+[0.515s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[0.515s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[0.516s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[0.516s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[0.516s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[0.516s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[0.531s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[0.531s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[0.532s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[0.532s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[0.536s] -- Installing: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[0.536s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[0.537s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[0.537s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[0.544s] -- Up-to-date: /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[0.560s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples

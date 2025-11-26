@@ -1,0 +1,45 @@
+[0.022s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples
+[0.177s] -- The C compiler identification is GNU 13.3.0
+[0.333s] -- The CXX compiler identification is GNU 13.3.0
+[0.384s] -- Detecting C compiler ABI info
+[0.700s] -- Detecting C compiler ABI info - done
+[0.728s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.729s] -- Detecting C compile features
+[0.731s] -- Detecting C compile features - done
+[0.779s] -- Detecting CXX compiler ABI info
+[1.141s] -- Detecting CXX compiler ABI info - done
+[1.176s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.177s] -- Detecting CXX compile features
+[1.179s] -- Detecting CXX compile features - done
+[1.192s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.600s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.949s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.093s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.146s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.215s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.567s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.574s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.980s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.083s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.151s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.475s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.535s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.895s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.896s] -- Configured cppcheck include dirs: 
+[3.897s] -- Configured cppcheck exclude dirs and/or files: 
+[3.900s] -- Added test 'lint_cmake' to check CMake code style
+[3.902s] -- Added test 'uncrustify' to check C / C++ code style
+[3.902s] -- Configured uncrustify additional arguments: 
+[3.904s] -- Added test 'xmllint' to check XML markup files
+[3.910s] -- Configuring done (3.9s)
+[3.955s] -- Generating done (0.0s)
+[3.967s] -- Build files have been written to: /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples
+[3.994s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_cpp_examples
+[3.995s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[4.167s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_publisher1.dir/src/simple_publisher.cpp.o[0m
+[4.181s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_subscriber1.dir/src/simple_subscriber.cpp.o[0m
+[15.699s] [ 75%] [32m[1mLinking CXX executable simple_publisher1[0m
+[16.082s] [ 75%] Built target simple_publisher1
+[21.981s] [100%] [32m[1mLinking CXX executable simple_subscriber1[0m
+[22.323s] [100%] Built target simple_subscriber1

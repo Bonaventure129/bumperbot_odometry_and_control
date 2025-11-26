@@ -1,0 +1,7 @@
+-- Install configuration: ""
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_bringup/config":
+  No such file or directory.
+
+[0m

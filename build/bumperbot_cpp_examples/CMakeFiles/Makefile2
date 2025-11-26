@@ -63,7 +63,8 @@ CMAKE_BINARY_DIR = /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cp
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/simple_publisher1.dir/all
+all: CMakeFiles/simple_subscriber1.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +74,8 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/bumperbot_cpp_examples_uninstall.dir/clean
+clean: CMakeFiles/simple_publisher1.dir/clean
+clean: CMakeFiles/simple_subscriber1.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +129,58 @@ bumperbot_cpp_examples_uninstall: CMakeFiles/bumperbot_cpp_examples_uninstall.di
 CMakeFiles/bumperbot_cpp_examples_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_cpp_examples_uninstall.dir/build.make CMakeFiles/bumperbot_cpp_examples_uninstall.dir/clean
 .PHONY : CMakeFiles/bumperbot_cpp_examples_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simple_publisher1.dir
+
+# All Build rule for target.
+CMakeFiles/simple_publisher1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher1.dir/build.make CMakeFiles/simple_publisher1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher1.dir/build.make CMakeFiles/simple_publisher1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles --progress-num=1,2 "Built target simple_publisher1"
+.PHONY : CMakeFiles/simple_publisher1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simple_publisher1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple_publisher1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles 0
+.PHONY : CMakeFiles/simple_publisher1.dir/rule
+
+# Convenience name for target.
+simple_publisher1: CMakeFiles/simple_publisher1.dir/rule
+.PHONY : simple_publisher1
+
+# clean rule for target.
+CMakeFiles/simple_publisher1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher1.dir/build.make CMakeFiles/simple_publisher1.dir/clean
+.PHONY : CMakeFiles/simple_publisher1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simple_subscriber1.dir
+
+# All Build rule for target.
+CMakeFiles/simple_subscriber1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber1.dir/build.make CMakeFiles/simple_subscriber1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber1.dir/build.make CMakeFiles/simple_subscriber1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles --progress-num=3,4 "Built target simple_subscriber1"
+.PHONY : CMakeFiles/simple_subscriber1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simple_subscriber1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple_subscriber1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles 0
+.PHONY : CMakeFiles/simple_subscriber1.dir/rule
+
+# Convenience name for target.
+simple_subscriber1: CMakeFiles/simple_subscriber1.dir/rule
+.PHONY : simple_subscriber1
+
+# clean rule for target.
+CMakeFiles/simple_subscriber1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber1.dir/build.make CMakeFiles/simple_subscriber1.dir/clean
+.PHONY : CMakeFiles/simple_subscriber1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

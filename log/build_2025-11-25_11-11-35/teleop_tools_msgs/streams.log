@@ -1,0 +1,24 @@
+[0.042s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs -- -j4 -l4
+[0.226s] [  2%] Built target teleop_tools_msgs__rosidl_generator_type_description
+[0.267s] [  2%] Built target ament_cmake_python_copy_teleop_tools_msgs
+[0.365s] [ 17%] Built target teleop_tools_msgs__rosidl_generator_c
+[0.436s] [ 20%] Built target teleop_tools_msgs__cpp
+[0.458s] [ 29%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[0.473s] [ 38%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[0.644s] [ 52%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[0.644s] [ 55%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[0.683s] [ 64%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[0.921s] [ 73%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[1.029s] [ 73%] Built target teleop_tools_msgs
+[1.161s] [ 76%] Built target teleop_tools_msgs__py
+[1.280s] [ 82%] Built target teleop_tools_msgs__rosidl_generator_py
+[1.467s] [ 88%] Built target teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c
+[1.507s] [ 94%] Built target teleop_tools_msgs_s__rosidl_typesupport_c
+[1.513s] [100%] Built target teleop_tools_msgs_s__rosidl_typesupport_introspection_c
+[2.076s] running egg_info
+[2.234s] writing teleop_tools_msgs.egg-info/PKG-INFO
+[2.234s] writing dependency_links to teleop_tools_msgs.egg-info/dependency_links.txt
+[2.235s] writing top-level names to teleop_tools_msgs.egg-info/top_level.txt
+[2.768s] reading manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[2.769s] writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[2.905s] [100%] Built target ament_cmake_python_build_teleop_tools_msgs_egg

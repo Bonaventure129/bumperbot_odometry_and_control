@@ -1,0 +1,56 @@
+[5.046s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_py_examples': AMENT_PREFIX_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[6.643s] running egg_info
+[6.648s] creating ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info
+[6.800s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[6.801s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[6.801s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[6.801s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[6.801s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[6.801s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[7.029s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[7.036s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[7.045s] running build
+[7.045s] running build_py
+[7.045s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build
+[7.045s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib
+[7.046s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[7.052s] copying bumperbot_py_examples/simple_tf_kinematics.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[7.052s] copying bumperbot_py_examples/simple_service_server.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[7.052s] copying bumperbot_py_examples/simple_service_client.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[7.056s] copying bumperbot_py_examples/simple_lifecycle_node.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[7.056s] copying bumperbot_py_examples/simple_parameter.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[7.058s] copying bumperbot_py_examples/simple_turtlesim_kinematics.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[7.061s] copying bumperbot_py_examples/__init__.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[7.069s] running install
+[7.126s] running install_lib
+[7.270s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[7.270s] copying /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_tf_kinematics.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[7.270s] copying /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_service_server.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[7.273s] copying /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_service_client.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[7.274s] copying /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_lifecycle_node.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[7.274s] copying /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_parameter.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[7.281s] copying /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_turtlesim_kinematics.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[7.281s] copying /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[7.281s] byte-compiling /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_tf_kinematics.py to simple_tf_kinematics.cpython-312.pyc
+[7.285s] byte-compiling /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_service_server.py to simple_service_server.cpython-312.pyc
+[7.288s] byte-compiling /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_service_client.py to simple_service_client.cpython-312.pyc
+[7.288s] byte-compiling /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_lifecycle_node.py to simple_lifecycle_node.cpython-312.pyc
+[7.294s] byte-compiling /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_parameter.py to simple_parameter.cpython-312.pyc
+[7.303s] byte-compiling /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_turtlesim_kinematics.py to simple_turtlesim_kinematics.cpython-312.pyc
+[7.303s] byte-compiling /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-312.pyc
+[7.305s] running install_data
+[7.305s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/share/ament_index
+[7.305s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index
+[7.310s] creating /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[7.311s] copying resource/bumperbot_py_examples -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[7.311s] copying package.xml -> /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[7.311s] running install_egg_info
+[7.451s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info
+[7.456s] running install_scripts
+[8.128s] Installing my_parameter script to /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[8.128s] Installing simple_lifecycle_node script to /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[8.129s] Installing simple_service_client script to /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[8.129s] Installing simple_service_server script to /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[8.129s] Installing simple_turtlesim_kinematics script to /home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[8.133s] writing list of installed files to '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[8.286s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

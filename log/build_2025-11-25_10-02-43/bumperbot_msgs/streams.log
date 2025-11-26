@@ -1,0 +1,31 @@
+[0.024s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_msgs
+[0.173s] -- The C compiler identification is GNU 13.3.0
+[0.334s] -- The CXX compiler identification is GNU 13.3.0
+[0.398s] -- Detecting C compiler ABI info
+[0.705s] -- Detecting C compiler ABI info - done
+[0.779s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.782s] -- Detecting C compile features
+[0.785s] -- Detecting C compile features - done
+[0.825s] -- Detecting CXX compiler ABI info
+[1.144s] -- Detecting CXX compiler ABI info - done
+[1.190s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.191s] -- Detecting CXX compile features
+[1.192s] -- Detecting CXX compile features - done
+[1.207s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.680s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.036s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.058s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.243s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.419s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.655s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.352s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[8.969s] -- Found PythonExtra: /usr/bin/python3  
+[10.685s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[10.781s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[10.855s] -- Added test 'lint_cmake' to check CMake code style
+[10.861s] -- Added test 'xmllint' to check XML markup files
+[10.868s] -- Configuring done (10.8s)
+[11.022s] -- Generating done (0.1s)
+[11.096s] -- Build files have been written to: /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_msgs

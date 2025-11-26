@@ -1,5 +1,7 @@
 /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/uninstall.dir
 /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/bumperbot_cpp_examples_uninstall.dir
+/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/simple_publisher1.dir
+/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/simple_subscriber1.dir
 /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/test.dir
 /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/edit_cache.dir
 /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/rebuild_cache.dir

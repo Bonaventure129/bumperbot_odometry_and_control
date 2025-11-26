@@ -1,0 +1,42 @@
+[0.052s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware
+[0.291s] -- The C compiler identification is GNU 13.3.0
+[0.451s] -- The CXX compiler identification is GNU 13.3.0
+[0.521s] -- Detecting C compiler ABI info
+[0.884s] -- Detecting C compiler ABI info - done
+[0.930s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.931s] -- Detecting C compile features
+[0.932s] -- Detecting C compile features - done
+[0.958s] -- Detecting CXX compiler ABI info
+[1.264s] -- Detecting CXX compiler ABI info - done
+[1.339s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.340s] -- Detecting CXX compile features
+[1.344s] -- Detecting CXX compile features - done
+[1.351s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.011s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.592s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.785s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.868s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.966s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.065s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.374s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.386s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.838s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.903s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.976s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.241s] -- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+[4.250s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.302s] -- Found hardware_interface: 4.39.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[5.711s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[5.723s] -- Checking for module 'libserial'
+[5.780s] --   Found libserial, version 1.0.0
+[6.307s] -- Configuring incomplete, errors occurred!
+[6.307s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[6.307s]   ament_python_install_package() the Python package folder
+[6.308s]   '/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_firmware/bumperbot_firmware'
+[6.308s]   doesn't contain an '__init__.py' file
+[6.308s] Call Stack (most recent call first):
+[6.308s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[6.308s]   CMakeLists.txt:22 (ament_python_install_package)
+[6.309s] 
+[6.309s] [0m
+[6.347s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_firmware' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_firmware

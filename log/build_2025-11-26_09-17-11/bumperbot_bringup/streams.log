@@ -1,0 +1,21 @@
+[0.032s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_bringup -- -j4 -l4
+[0.103s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.312s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.781s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.781s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.786s] -- Added test 'lint_cmake' to check CMake code style
+[1.789s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.794s] -- Added test 'xmllint' to check XML markup files
+[1.796s] -- Configuring done (1.7s)
+[1.808s] -- Generating done (0.0s)
+[1.814s] -- Build files have been written to: /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_bringup
+[1.894s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_bringup -- -j4 -l4
+[1.898s] Invoking command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_bringup
+[1.931s] -- Install configuration: ""
+[1.935s] [31mCMake Error at cmake_install.cmake:46 (file):
+[1.937s]   file INSTALL cannot find
+[1.938s]   "/home/ugbah-awele-bonaventure/bumperbot_ws/src/bumperbot_bringup/config":
+[1.938s]   No such file or directory.
+[1.941s] 
+[1.941s] [0m
+[1.949s] Invoked command in '/home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugbah-awele-bonaventure/bumperbot_ws/install/joy_teleop:/home/ugbah-awele-bonaventure/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ugbah-awele-bonaventure/bumperbot_ws/build/bumperbot_bringup

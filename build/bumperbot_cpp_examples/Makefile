@@ -197,6 +197,80 @@ bumperbot_cpp_examples_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_cpp_examples_uninstall.dir/build.make CMakeFiles/bumperbot_cpp_examples_uninstall.dir/build
 .PHONY : bumperbot_cpp_examples_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named simple_publisher1
+
+# Build rule for target.
+simple_publisher1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_publisher1
+.PHONY : simple_publisher1
+
+# fast build rule for target.
+simple_publisher1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher1.dir/build.make CMakeFiles/simple_publisher1.dir/build
+.PHONY : simple_publisher1/fast
+
+#=============================================================================
+# Target rules for targets named simple_subscriber1
+
+# Build rule for target.
+simple_subscriber1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_subscriber1
+.PHONY : simple_subscriber1
+
+# fast build rule for target.
+simple_subscriber1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber1.dir/build.make CMakeFiles/simple_subscriber1.dir/build
+.PHONY : simple_subscriber1/fast
+
+src/simple_publisher.o: src/simple_publisher.cpp.o
+.PHONY : src/simple_publisher.o
+
+# target to build an object file
+src/simple_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher1.dir/build.make CMakeFiles/simple_publisher1.dir/src/simple_publisher.cpp.o
+.PHONY : src/simple_publisher.cpp.o
+
+src/simple_publisher.i: src/simple_publisher.cpp.i
+.PHONY : src/simple_publisher.i
+
+# target to preprocess a source file
+src/simple_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher1.dir/build.make CMakeFiles/simple_publisher1.dir/src/simple_publisher.cpp.i
+.PHONY : src/simple_publisher.cpp.i
+
+src/simple_publisher.s: src/simple_publisher.cpp.s
+.PHONY : src/simple_publisher.s
+
+# target to generate assembly for a file
+src/simple_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher1.dir/build.make CMakeFiles/simple_publisher1.dir/src/simple_publisher.cpp.s
+.PHONY : src/simple_publisher.cpp.s
+
+src/simple_subscriber.o: src/simple_subscriber.cpp.o
+.PHONY : src/simple_subscriber.o
+
+# target to build an object file
+src/simple_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber1.dir/build.make CMakeFiles/simple_subscriber1.dir/src/simple_subscriber.cpp.o
+.PHONY : src/simple_subscriber.cpp.o
+
+src/simple_subscriber.i: src/simple_subscriber.cpp.i
+.PHONY : src/simple_subscriber.i
+
+# target to preprocess a source file
+src/simple_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber1.dir/build.make CMakeFiles/simple_subscriber1.dir/src/simple_subscriber.cpp.i
+.PHONY : src/simple_subscriber.cpp.i
+
+src/simple_subscriber.s: src/simple_subscriber.cpp.s
+.PHONY : src/simple_subscriber.s
+
+# target to generate assembly for a file
+src/simple_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber1.dir/build.make CMakeFiles/simple_subscriber1.dir/src/simple_subscriber.cpp.s
+.PHONY : src/simple_subscriber.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +286,14 @@ help:
 	@echo "... test"
 	@echo "... bumperbot_cpp_examples_uninstall"
 	@echo "... uninstall"
+	@echo "... simple_publisher1"
+	@echo "... simple_subscriber1"
+	@echo "... src/simple_publisher.o"
+	@echo "... src/simple_publisher.i"
+	@echo "... src/simple_publisher.s"
+	@echo "... src/simple_subscriber.o"
+	@echo "... src/simple_subscriber.i"
+	@echo "... src/simple_subscriber.s"
 .PHONY : help
 
 

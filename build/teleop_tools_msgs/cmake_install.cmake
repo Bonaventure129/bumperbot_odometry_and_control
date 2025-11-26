@@ -182,7 +182,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so"
-         OLD_RPATH "/opt/ros/jazzy/lib:/home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs:"
+         OLD_RPATH "/home/ugbah-awele-bonaventure/bumperbot_ws/build/teleop_tools_msgs:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so")
